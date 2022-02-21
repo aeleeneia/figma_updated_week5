@@ -1,0 +1,79 @@
+body {
+    background-image: url(/assets/images/background.png);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.header_container {
+    display: flex;
+    border-bottom: 0.1px solid black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 28px 40px 0 40px;
+}
+
+.logo {
+    padding-bottom: 28px;
+}
+
+#word_coffeeshop {
+    font-family: Perpetua, serif;
+    color: white;
+    font-weight: bold;
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'Poppins', calibri, sans-serif;
+    color: white;
+    font-weight: 700;
+    font-size: 72px;
+}
+
+.desctiption_main_page {
+    font-family: 'Poppins', calibri, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: beige;
+}
+
+main {
+    display: block;
+    width: 45vw;
+    margin-top: 90px;
+    margin-left: 35px;
+
+}
+
+.menu {
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 36px;
+    height: 36px;
+    top: 52px;
+    padding: 10px;
+}
+
+.menu:hover {
+    color: chocolate;
+}
+
+.button_main_page {
+    width: 363px;
+    height: 104px;
+    top: 761px;
+    left: 101px;
+    border-radius: 70px;
+    background-color: #b68c4d;
+    box-shadow: rgba(0, 0, 0, 0.3);
+    font-family: 'Poppins', calibri, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: white;
+
+}
